@@ -7,12 +7,13 @@ import axios from 'axios';
 
 class FullPost extends Component{
     state= {
-        LoadedPost: null
+        LoadedPost: null,
+        deleteStatus: false
     };
     componentDidUpdate() {
         if(this.props.selectedId){
             if(!this.state.LoadedPost || (this.state.LoadedPost && this.state.LoadedPost.id !== this.props.selectedId)){
-                axios.get('https://jsonplaceholder.typicode.com/posts/'+this.props.selectedId)
+                axios.get('/posts/'+this.props.selectedId)
                     .then((response)=>{
                         this.setState({
                             LoadedPost: response.data
@@ -22,19 +23,36 @@ class FullPost extends Component{
         }
 
     }
+    deletePostHandler = () => {
+        axios.delete('/posts/'+this.props.selectedId)
+            .then((response)=>{
+                this.setState({
+                    LoadedPost : null
+                });
+            })
+            .catch(error => {
+                this.setState({
+                   deleteStatus : true
+                });
+            });
+    };
     render(){
         let post = (<p> Please select a post!</p>);
+        let errorMsg;
         if(this.props.selectedId){
             post = <p> Loading...</p>
-
+        }
+        if(this.state.deleteStatus){
+            errorMsg = (<span>Something went wrong, Please try again</span>)
         }
         if(this.state.LoadedPost){
             post = (
                 <div className="FullPost">
                     <h1>{this.state.LoadedPost.title}</h1>
-                    <p>{this.state.content}</p>
+                    <p>{this.state.LoadedPost.body}</p>
                     <div className="Edit">
-                        <button className="delete">Delete</button>
+                        {errorMsg}
+                        <button className="delete" onClick={this.deletePostHandler}>Delete</button>
                     </div>
                 </div>
             );
