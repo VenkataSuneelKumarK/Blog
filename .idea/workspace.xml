@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a41be7ba-1144-4514-9a5a-a3259b53e218" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Post/Post.css" afterPath="$PROJECT_DIR$/src/components/Post/Post.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/FullPost/FullPost.js" afterPath="$PROJECT_DIR$/src/components/FullPost/FullPost.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/NewPost/NewPost.js" afterPath="$PROJECT_DIR$/src/components/NewPost/NewPost.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Post/Post.js" afterPath="$PROJECT_DIR$/src/components/Post/Post.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Blog/Blog.js" afterPath="$PROJECT_DIR$/src/containers/Blog/Blog.js" />
     </list>
@@ -42,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FullPost.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FullPost.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/FullPost/FullPost.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="353">
+              <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
               <folding>
                 <element signature="e#44#83#0" expanded="true" />
               </folding>
@@ -54,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Blog.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Blog.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Blog/Blog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+            <state relative-caret-position="307">
+              <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="40" />
               <folding>
                 <element signature="e#44#85#0" expanded="true" />
               </folding>
@@ -89,8 +90,8 @@
       <file leaf-file-name="NewPost.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/NewPost/NewPost.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="375">
+              <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
               <folding>
                 <element signature="e#44#85#0" expanded="true" />
               </folding>
@@ -111,8 +112,8 @@
       <file leaf-file-name="Post.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Post/Post.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="49" />
+            <state relative-caret-position="90">
+              <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="57" />
               <folding>
                 <element signature="e#44#70#0" expanded="true" />
               </folding>
@@ -149,13 +150,13 @@
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/containers/Blog/Blog.css" />
-        <option value="$PROJECT_DIR$/src/components/NewPost/NewPost.js" />
         <option value="$PROJECT_DIR$/src/components/NewPost/NewPost.css" />
         <option value="$PROJECT_DIR$/src/components/FullPost/FullPost.css" />
-        <option value="$PROJECT_DIR$/src/components/FullPost/FullPost.js" />
         <option value="$PROJECT_DIR$/src/components/Post/Post.css" />
+        <option value="$PROJECT_DIR$/src/components/NewPost/NewPost.js" />
         <option value="$PROJECT_DIR$/src/components/Post/Post.js" />
         <option value="$PROJECT_DIR$/src/containers/Blog/Blog.js" />
+        <option value="$PROJECT_DIR$/src/components/FullPost/FullPost.js" />
       </list>
     </option>
   </component>
@@ -419,12 +420,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564150521820</updated>
-      <workItem from="1564150523441" duration="3692000" />
+      <workItem from="1564150523441" duration="6011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3692000" />
+    <option name="totallyTimeSpent" value="6011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1438" height="807" extended-state="6" />
@@ -524,28 +525,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NewPost/NewPost.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="375">
+          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
           <folding>
             <element signature="e#44#85#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FullPost/FullPost.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="e#44#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Post/Post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="49" />
+        <state relative-caret-position="90">
+          <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="57" />
           <folding>
             <element signature="e#44#70#0" expanded="true" />
           </folding>
@@ -554,10 +545,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Blog/Blog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="307">
+          <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="40" />
           <folding>
             <element signature="e#44#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FullPost/FullPost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding>
+            <element signature="e#44#83#0" expanded="true" />
           </folding>
         </state>
       </provider>
